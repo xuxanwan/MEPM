@@ -1,0 +1,4 @@
+select xxx from xxxx where aa = ? and bb = ?
+
+
+aa(string) bb(string) cc()
