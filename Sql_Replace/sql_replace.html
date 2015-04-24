@@ -20,7 +20,7 @@ $('#affirma').click(function(){
 			sql = sql.replace('\?','\''+sqlArrayIn[0]+'\'');
 		}
 		//alert(i+" : "+sqlArrayIn[0]+" : "+sqlArrayIn[1]);
-		if(sqlArrayIn[1] == 'BigDecimal)'|| sqlArrayIn[1]=='Short)'|| sqlArrayIn[1]=='Long)'|| sqlArrayIn[1]=='Integer)'|| sqlArrayIn[1]=='Double)'){
+		if(sqlArrayIn[1] == 'BigDecimal)'|| sqlArrayIn[1]=='Short)'|| sqlArrayIn[1]=='Long)'|| sqlArrayIn[1]=='Integer)'|| sqlArrayIn[1]=='Double)'||sqlArrayIn[1] == 'StringReader)'){
 			sql =  sql.replace('\?',sqlArrayIn[0]);
 		}
 	}
